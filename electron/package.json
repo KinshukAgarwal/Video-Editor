@@ -1,0 +1,24 @@
+{
+  "name": "video-editing-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main/index.js",
+  "scripts": {
+    "dev": "concurrently -k \"npm --prefix ../frontend run dev\" \"wait-on tcp:5173 && cross-env ELECTRON_RENDERER_URL=http://localhost:5173 electron .\"",
+    "start": "npm run dev",
+    "desktop": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "electron": "^40.4.1",
+    "wait-on": "^9.0.4"
+  },
+  "dependencies": {
+    "electron-store": "^11.0.2"
+  }
+}

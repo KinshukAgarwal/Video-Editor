@@ -1,0 +1,32 @@
+.ui-button {
+    border-radius: 10px;
+    border: 1px solid #e6aa16;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.ui-button:hover {
+    background: #e6aa16;
+    border-color: #d0d7e2;
+}
+
+.ui-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.ui-button-small {
+    height: 34px; padding: 0 10px;
+}
+
+.ui-button-medium {
+    height: 42px; padding: 0 14px;
+}
+
+.ui-button-large {
+    height: 52px; padding: 0 18px;
+}
+
+.ui-button-XL {
+    height: 64px; padding: 0 22px;
+}
