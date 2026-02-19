@@ -47,7 +47,6 @@ video-editing-project/
 ├── python/                  # Flask Whisper transcription service
 ├── electron/                # Electron main process + preload
 ├── storage/                 # Uploaded files and export outputs
-├── KT.md                    # Deep knowledge-transfer document
 ├── README.md
 └── .gitignore
 ```
@@ -186,7 +185,3 @@ npm --prefix electron run desktop
   - verify `ffmpeg -version` works in terminal
 - No preview for some videos on Linux:
   - install required codecs/libraries (for example FFmpeg/GStreamer packages)
-
-## Additional Project Notes
-
-For a deeper technical walkthrough and extension guidance, see `KT.md`.
